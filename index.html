@@ -10,23 +10,32 @@
         <div class="game">
             <h1>Detective Gigi's Web of <em>Meow</em>steries</h1>
             <div id="top-menu-div">
-                <button type="button" class="top-menu">Inventory</button>
-                <button type="button" class="top-menu">Stats</button>
-                <span class="top-menu">In: <span id="current-place">placeholder PLACE</span></span>
-                <button type="button" class="top-menu" id="options">Options</button>
-                <button type="button" class="top-menu" id="change-place">Change Place</button>
+                <button type="button" class="top-menu" id="inventory">Inventory</button>
+                <button type="button" class="top-menu" id="stats">Stats</button>
+                <span class="top-menu">In: <span id="current-place-text">placeholder PLACE</span></span>
+                <div id="right-top-menu">
+                    <button type="button" class="top-menu" id="clues-info">Clues/Info</button>
+                    <button type="button" class="top-menu" id="change-place">Change Place</button>
+                    <button type="button" class="top-menu" id="options">Options</button>
+                </div>
             </div>
             <figure id="main-image">
                 <img src="images\gigi_capa.jpg" alt="Cute cat sleeping" id="context-image">
-                <figcaption>Crime never sleeps. We do.</figcaption>
+                <figcaption id="place-description">Crime never sleeps. We do.</figcaption>
             </figure>
-            <div id="main window">
+            <div id="main-window">
                 <p class="Main Text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+            <div id="place-controls">
+                <button>Talk to</button>
+                <button>Search</button>
+                <button>Use item</button>
             </div>
             <footer>
                 <p>Developed by Zunino-Aucar family</p>
             </footer>
         </div>
+        <script src="script.js"></script>
     </body>
     
 </html>

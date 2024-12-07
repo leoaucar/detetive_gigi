@@ -27,16 +27,13 @@ footer {
     margin-right: 0;
     max-width: 800px;
     max-height: 400px;
+    width: 100%;
+    height: auto;
 }
-.top-menu{
-    padding: 5px;
-    border-style: solid;
-    border-color:black;
-    border-width: 2px;
-}
-#options{
+
+
+
+#right-top-menu{
     float:right;
 }
-#change-place{
-    float:right;
-}
+
