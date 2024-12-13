@@ -29,11 +29,24 @@ footer {
     max-height: 400px;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
-
-
 
 #right-top-menu{
     float:right;
 }
 
+#stats-screen{
+    position:fixed;
+    display:none;
+    width: 40%;
+    height:150px;
+    top:150px;
+    background-color: white;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+.stats-screen-item{
+    padding: 3px;
+}
